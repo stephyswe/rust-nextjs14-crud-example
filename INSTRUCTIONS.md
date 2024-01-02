@@ -71,3 +71,9 @@ $ npx create-next-app@latest --no-git
 cd frontend
 npm i axios
 npm run dev
+
+# 5 Fullstack NextJS - API/Docker
+
+docker compose build
+docker compose up -d
+visit http://localhost:3000
