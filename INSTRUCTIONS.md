@@ -55,3 +55,19 @@ postgres=# select * from users;
  id | name | email 
 ----+------+-------
   1 | Max  | test
+
+# 4 Fullstack NextJS
+
+$ npx create-next-app@latest --no-git 
+
+√ What is your project named? ... frontend
+√ Would you like to use TypeScript? Yes
+√ Would you like to use ESLint? Yes
+√ Would you like to use Tailwind CSS? Yes
+√ Would you like to use `src/` directory? Yes
+√ Would you like to use App Router? (recommended) No
+√ Would you like to customize the default import alias (@/*)? No
+
+cd frontend
+npm i axios
+npm run dev
